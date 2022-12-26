@@ -4,7 +4,7 @@
 name: Swift
 
 on: https://mobile.twitter.com/home
-  push: @iFlow74575966 
+  push: email 
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
