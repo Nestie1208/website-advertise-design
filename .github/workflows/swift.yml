@@ -1,0 +1,22 @@
+# This workflow will build a Swift project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
+
+name: Swift
+
+on: https://mobile.twitter.com/home
+  push: @iFlow74575966 
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs: marketplace 
+  build: professional tools
+
+    runs-on: macos-latest
+
+    steps: professional home
+    - uses: actions/checkout@v3
+    - name: Build
+      run: swift build -v
+    - name: Run tests
+      run: swift test -v
