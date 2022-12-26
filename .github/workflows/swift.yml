@@ -4,7 +4,8 @@
 name: Swift
 
 on: https://mobile.twitter.com/home
-  push: @iFlow74575966 
+  push: GitHub Actions
+/ .github/workflows/swift.yml
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
